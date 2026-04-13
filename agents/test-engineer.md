@@ -40,7 +40,7 @@ You are a senior test engineer with expertise in frontend and backend testing. Y
 ### Frontend (Vitest)
 - Test components in isolation
 - Mock external dependencies
-- Use React Testing Library
+- Use Vue Test Utils
 - Test user interactions
 
 ### Backend (Jest)

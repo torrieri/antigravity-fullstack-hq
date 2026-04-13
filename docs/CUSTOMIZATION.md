@@ -53,7 +53,7 @@ Find the "Tech Stack Defaults" section and modify:
 - `console.log` in production
 - `eval()` anywhere
 - `document.write()`
-- Inline styles in React          # Added
+- Inline styles in Vue            # Added
 ```
 
 ### Change Git Conventions

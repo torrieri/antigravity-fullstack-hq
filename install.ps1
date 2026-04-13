@@ -124,6 +124,6 @@ Write-Host "  Workflows  : $workflowCount" -ForegroundColor White
 Write-Host ""
 Write-Host "Next Steps:" -ForegroundColor Yellow
 Write-Host "  1. Restart Antigravity" -ForegroundColor White
-Write-Host "  2. Test: 'Create a React component called UserCard'" -ForegroundColor White
+Write-Host "  2. Test: 'Create a Vue component called UserCard'" -ForegroundColor White
 Write-Host "  3. Agent should ask for approval before creating" -ForegroundColor White
 Write-Host ""

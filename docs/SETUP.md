@@ -65,7 +65,7 @@ Close and reopen Antigravity IDE for changes to take effect.
 Test with a simple prompt:
 
 ```
-Create a React component called UserCard
+Create a Vue component called UserCard
 ```
 
 The agent should:
