@@ -13,7 +13,7 @@ It is a **thinking-first engineering headquarters** designed to:
 Before writing code, this repository helps you decide:
 **who thinks, how things are done, and in what order work happens.**
 
-> A comprehensive, production-ready configuration kit for Google Antigravity IDE - optimized for Next.js, NestJS, TypeScript, Prisma, and Tailwind CSS stack.
+> A comprehensive, production-ready configuration kit for Google Antigravity IDE - optimized for Nuxt, NestJS, TypeScript, Prisma, and Tailwind CSS stack.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Antigravity](https://img.shields.io/badge/Google-Antigravity-blue)](https://antigravity.google)
@@ -32,15 +32,16 @@ A complete **"Full Stack Headquarters"** for Google Antigravity IDE containing:
 | Component | Count | Description |
 |-----------|-------|-------------|
 | **GEMINI.md** | 1 | Global rules with permission-first workflow |
-| **Agents** | 10 | Specialist AI personas |
-| **Skills** | 28 | Domain-specific knowledge modules |
+| **Agents** | 11 | Specialist AI personas |
+| **Skills** | 29 | Domain-specific knowledge modules |
 | **Workflows** | 10 | Slash command procedures |
 
 ### Tech Stack
 
 This kit is optimized for:
 
-- **Frontend**: Next.js (App Router), React, TypeScript, Tailwind CSS
+- **Frontend**: Nuxt, Vue, TypeScript, Tailwind CSS
+- **Mobile**: Flutter, Dart
 - **Backend**: NestJS, Node.js
 - **Database**: PostgreSQL, Prisma ORM
 - **Testing**: Vitest, Jest, Playwright
@@ -69,11 +70,12 @@ cd antigravity-fullstack-hq
 
 ### What's Included
 
-#### Agents (10)
+#### Agents (11)
 
 | Agent | Expertise |
 |-------|-----------|
-| `frontend-specialist` | React, Next.js, UI/UX |
+| `frontend-specialist` | Vue, Nuxt, UI/UX |
+| `mobile-specialist` | Flutter, Dart, Mobile UI |
 | `backend-specialist` | NestJS, Node.js, APIs |
 | `database-specialist` | Prisma, PostgreSQL |
 | `code-reviewer` | Code quality, PR reviews |
@@ -84,9 +86,11 @@ cd antigravity-fullstack-hq
 | `performance-optimizer` | Performance tuning |
 | `documentation-writer` | Technical writing |
 
-#### Skills (28)
+#### Skills (29)
 
-**Frontend**: react-best-practices, web-design-guidelines, frontend-design, nextjs-app-router, ui-ux-pro-max, and more
+**Frontend**: vue-best-practices, web-design-guidelines, frontend-design, nuxtjs-patterns, ui-ux-pro-max, and more
+
+**Mobile**: flutter-patterns, mobile-design-guidelines
 
 **Backend**: nestjs-patterns, backend-dev-guidelines, prisma-workflow, software-architecture
 
@@ -168,15 +172,16 @@ Google Antigravity IDE icin eksiksiz bir **"Full Stack Yazilim Ussu"**:
 | Bilesen | Adet | Aciklama |
 |---------|------|----------|
 | **GEMINI.md** | 1 | Permission-first workflow ile global kurallar |
-| **Agents** | 10 | Uzman AI personalari |
-| **Skills** | 28 | Domain-spesifik bilgi modulleri |
+| **Agents** | 11 | Uzman AI personalari |
+| **Skills** | 29 | Domain-spesifik bilgi modulleri |
 | **Workflows** | 10 | Slash command prosedurleri |
 
 ### Teknoloji Yigini
 
 Bu kit su stack icin optimize edilmistir:
 
-- **Frontend**: Next.js (App Router), React, TypeScript, Tailwind CSS
+- **Frontend**: Nuxt, Vue, TypeScript, Tailwind CSS
+- **Mobil**: Flutter, Dart
 - **Backend**: NestJS, Node.js
 - **Veritabani**: PostgreSQL, Prisma ORM
 - **Test**: Vitest, Jest, Playwright

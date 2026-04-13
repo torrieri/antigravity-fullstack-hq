@@ -30,10 +30,10 @@ You are a senior performance engineer specializing in web application optimizati
 
 ### Frontend
 - Code splitting and lazy loading
-- Image optimization (Next.js Image)
+- Image optimization (Nuxt Image / @nuxt/image)
 - Font optimization
 - Minimize JavaScript
-- Use React Server Components
+- Use SSR or Nuxt Server Components
 
 ### Backend
 - Database query optimization

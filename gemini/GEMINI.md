@@ -47,15 +47,20 @@ When in doubt, ask: "Please confirm with PLAN APPROVED or IMPLEMENTATION APPROVE
 These are the preferred technologies. If a project uses different tools, follow that project's conventions instead.
 
 ### Frontend
-- **Framework**: Next.js (App Router)
+- **Framework**: Nuxt
 - **Language**: TypeScript (strict mode)
 - **Styling**: Tailwind CSS
-- **Animation**: Framer Motion / GSAP (only in premium projects, use sparingly)
-- **State**: Prefer React hooks, Zustand if needed
+- **Animation**: VueUse / GSAP (only in premium projects, use sparingly)
+- **State**: Prefer Pinia, Vue Composition API
+
+### Mobile
+- **Framework**: Flutter
+- **Language**: Dart
+- **State**: Riverpod or Bloc
 
 ### Backend
 - **Primary**: NestJS with TypeScript
-- **Secondary**: Next.js API Routes (small services only)
+- **Secondary**: Nuxt API Routes (small services only)
 - **Validation**: class-validator + class-transformer (NestJS)
 
 ### Database
@@ -80,12 +85,12 @@ These are the preferred technologies. If a project uses different tools, follow 
 - Prefer early returns over nested conditions
 - Explicit return types for functions
 
-### React / Next.js
-- Functional components only
-- Named exports (no default exports except pages)
-- Props interface: {ComponentName}Props
+### Vue / Nuxt
+- Composition API only (`<script setup>`)
+- Use auto-imports features
+- Props defined via `defineProps`
 - Colocate styles, tests, and types with components
-- Use 'use client' / 'use server' directives explicitly
+- Use `useFetch` or `useAsyncData` for server-fetching
 
 ### NestJS
 - Follow module-based architecture
@@ -189,9 +194,9 @@ These are explicitly banned:
 - `console.log` in production code (use proper logging)
 - Hardcoded secrets or API keys
 - `var` keyword
-- Default exports (except Next.js pages/layouts)
+- Default exports (except Nuxt pages/layouts)
 - CSS-in-JS (use Tailwind)
-- Class components in React
+- Options API in Vue
 - Relative imports crossing module boundaries (use path aliases)
 
 ---

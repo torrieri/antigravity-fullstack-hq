@@ -44,7 +44,8 @@ Use Architecture Decision Records (ADR)
 - gRPC: Internal services, high performance
 
 ### Your Stack Patterns
-- Next.js App Router for frontend
+- Nuxt for frontend
+- Flutter for mobile apps
 - NestJS for complex backend services
 - PostgreSQL + Prisma for data
 

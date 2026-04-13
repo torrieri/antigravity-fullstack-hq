@@ -25,7 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 4 custom skills:
   - nestjs-patterns
   - prisma-workflow
-  - nextjs-app-router
+  - nuxtjs-patterns
+  - flutter-patterns
   - prompt-engineering
 - 6 workflows:
   - /brainstorm
@@ -42,7 +43,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Tech Stack Support
 
-- Next.js (App Router)
+- Nuxt
+- Vue
+- Flutter
 - NestJS
 - TypeScript
 - Tailwind CSS
