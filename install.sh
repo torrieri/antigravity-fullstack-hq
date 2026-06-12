@@ -117,7 +117,7 @@ if [[ "$INSTALL_ANTIGRAVITY" == true ]]; then
 
     # Skills
     skill_count=0
-    for d in "$SCRIPT_DIR/skills"/*/; do
+    for d in "$SCRIPT_DIR/skills"/*; do
         [[ -d "$d" ]] || continue
         cp -r "$d" "$GEMINI_SKILLS_DIR/"
         ((skill_count++))
