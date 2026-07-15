@@ -60,6 +60,7 @@ These are the preferred technologies. If a project uses different tools, follow 
 
 - **Framework**: Nuxt
 - **Language**: TypeScript (strict mode)
+- **UI library**: NuxtUI
 - **Styling**: Tailwind CSS
 - **Animation**: VueUse / GSAP (only in premium projects, use sparingly)
 - **State**: Prefer Pinia, Vue Composition API
