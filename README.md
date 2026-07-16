@@ -69,7 +69,7 @@ Install once. Your agent becomes a disciplined senior engineer who:
 | Component | Count | What it does |
 |-----------|:-----:|--------------|
 | **Agents** | 10 | Specialist AI personas for each domain |
-| **Skills** | 28 | Deep knowledge modules (Next.js, NestJS, Prisma...) |
+| **Skills** | 28 | Deep knowledge modules (Nuxt.js, NestJS, Prisma...) |
 | **Workflows** | 10 | Slash commands for your dev loop |
 
 ---
@@ -151,7 +151,7 @@ Anything else = the agent waits.
 Full Stack HQ is tuned for modern production stacks:
 
 ```
-Frontend     Next.js 15 (App Router)  ·  TypeScript 5  ·  Tailwind CSS v4
+Frontend     Nuxt.js 15 (App Router)  ·  TypeScript 5  ·  Tailwind CSS v4
 Backend      NestJS  ·  Node.js 22+  ·  BullMQ  ·  Redis
 Database     PostgreSQL 16+  ·  Prisma 6+
 Auth         JWT with refresh token rotation
@@ -170,7 +170,7 @@ Infra        Docker  ·  GitHub Actions  ·  Vercel
 
 | Agent | Trigger phrase | Specialty |
 |-------|---------------|-----------|
-| `frontend-specialist` | `Use the frontend-specialist to...` | React, Next.js, Tailwind, UI/UX |
+| `frontend-specialist` | `Use the frontend-specialist to...` | React, Nuxt.js, Tailwind, UI/UX |
 | `backend-specialist` | `Use the backend-specialist to...` | NestJS, APIs, queues, Redis |
 | `database-specialist` | `Use the database-specialist to...` | Prisma, PostgreSQL, migrations |
 | `architect` | `Use the architect to...` | System design, ADRs, trade-offs |
