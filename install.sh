@@ -171,7 +171,7 @@ if [[ "$INSTALL_CLAUDE" == true ]]; then
     # Skills
     mkdir -p "$CLAUDE_SKILLS_DIR"
     skill_count=0
-    for d in "$SCRIPT_DIR/skills"/*/; do
+    for d in "$SCRIPT_DIR/skills"/*; do
         [[ -d "$d" ]] || continue
         cp -r "$d" "$CLAUDE_SKILLS_DIR/"
         ((skill_count++))
